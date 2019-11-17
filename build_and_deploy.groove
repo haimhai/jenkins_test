@@ -28,8 +28,8 @@ def buildApp(){
 
 
 def deploy(environment){
-  def containerName = ''
-  def port = ''
+  def containerName = 'none'
+  def port = 'none'
   
  if ( "${environment}" == 'dev' ){
   containerName = "app dev"
